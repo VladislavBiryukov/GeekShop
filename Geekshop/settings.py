@@ -40,8 +40,10 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "mainapp",
     "authnapp",
-    "basketapp",
 ]
+# Auth model
+AUTH_USER_MODEL = "authnapp.ShopUser"
+
 # Auth model
 AUTH_USER_MODEL = "authnapp.ShopUser"
 
