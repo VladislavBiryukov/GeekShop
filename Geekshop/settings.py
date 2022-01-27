@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     "mainapp",
     "authnapp",
 ]
+# Auth model
+AUTH_USER_MODEL = "authnapp.ShopUser"
 
 # Auth model
 AUTH_USER_MODEL = "authnapp.ShopUser"
