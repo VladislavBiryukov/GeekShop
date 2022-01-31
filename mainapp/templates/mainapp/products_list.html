@@ -15,7 +15,6 @@
             {% for product in products %}
             <div class="block">
                 {% if user.is_authenticated %}
-                <a href="{% url 'products:product' product.pk %}">
                     {% else %}
                     <a href="{% url 'auth:login' %}">
                         {% endif %}
