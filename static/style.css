@@ -265,8 +265,6 @@ html, body {
 .slider {
 	height: 800px;
 	background-image: url(/static/img/slider.jpg);
-	/*padding-left: 98px;*/
-	padding-left: 78px;
 	padding-right: 211px;
 	position: relative;
 }
@@ -335,16 +333,12 @@ html, body {
 	background-image: url(/static/img/basket.png);
 	position: absolute;
 	top: 63px;
-	/*left: 1210px;*/
-	left: 1180px;
 	text-decoration: none;
 	color: #555;
 }
 
 .basket span {
-	display: block;
-	margin-left: 30px;
-	width: 150px;
+
 }
 
 .clearfix:after {
@@ -1237,8 +1231,7 @@ td:first-child {
 	padding-left: 98px;
 	padding-right: 98px;
 	margin-top: 98px;
-	/*height: 651px; */
-	height: 551px;
+
 }
 
 .details-slider {
@@ -1443,7 +1436,4 @@ td:first-child {
 
 .related-products a:hover .text {
 	display: block;
-}
-.slider-product img {
-	width: 100%;
 }
