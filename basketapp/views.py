@@ -1,5 +1,7 @@
+
 from basketapp.models import Basket
 from mainapp.models import Product
+
 
 
     product = get_object_or_404(Product, pk=pk)
@@ -14,4 +16,4 @@ from mainapp.models import Product
     return HttpResponseRedirect(request.META.get("HTTP_REFERER"))
 
 
-    return HttpResponseRedirect(request.META.get("HTTP_REFERER"))
+

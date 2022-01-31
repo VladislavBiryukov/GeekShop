@@ -18,6 +18,7 @@ def main(request):
         "same_products": same_products,
         "media_url": settings.MEDIA_URL,
 
+
     return render(request, "mainapp/products.html", content)
 
 

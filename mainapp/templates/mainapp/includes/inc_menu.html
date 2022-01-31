@@ -23,6 +23,7 @@
         </a>
     </li>
     {% endif %}
+
     <li>
         {% if user.is_authenticated %}
         <a href="{% url 'auth:logout' %}">выйти</a>
